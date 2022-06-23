@@ -1,0 +1,139 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.backgrnd{
+    background-image: url(images/nicolas-cool-SpNbLsJuuYQ-unsplash.jpg);
+    background-size: cover;
+    background-position: 0 77%;
+    padding: 10px;
+}
+.heading{
+    margin: 5px auto ;
+    /* color: firebrick; */
+    font-family: 'Catamaran', sans-serif;
+    width: fit-content;
+}
+.block{
+    padding: .3vw;
+    width: fit-content;
+    margin: auto;
+    text-align: center;
+    font-size: x-large;
+    color: whitesmoke;
+    /* background-color: rgba(255, 30, 19, 0.5); */
+    background-color: rgba(48, 255, 255, 0.6);
+    border-radius: 10px;
+}
+#amount{
+    margin: 0;
+    width: 220px;
+    margin: auto;
+    font-family: 'Roboto Slab', serif;
+}
+.line{
+    padding: .5vw;
+    margin: 10px auto 0;   
+    width: 26vw;
+    overflow: auto;
+    text-align: center;
+    border: 1.5px solid black;
+    border-radius: 10px;
+}
+.line p{
+    display: inline-block;
+    font-family: 'Roboto Slab', serif;
+    margin: 0;
+}
+.line1{
+    background-color: tomato;
+}
+.line2{
+
+    background-color: rgb(0, 212, 212   );
+}
+.controlPanel{
+    background-color: rgb(252, 248, 237);
+    border: .1px solid rgb(231, 227, 227);
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+.controlPanel div{
+    margin: 15px;
+}
+#description{
+    padding: 9px;
+    width: 25vw;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+#value{
+    padding: 9px;
+    width: 5vw;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+#checkSign{
+    vertical-align: bottom;
+    color: aqua;
+}
+.block1{
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Lato', sans-serif;
+}
+.body{
+    /* border: 1px solid black; */
+    width: 30vw;
+    height: 35vh;
+}
+.incomeHead{
+    text-align: center;
+    color: cyan;
+}
+.item{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid  rgb(180, 180, 180);
+    border-bottom: .5px solid rgb(180, 180, 180);
+    line-height: 7vh;
+    height: 7vh;
+}
+.descriptionForBody{
+    width: 75%;
+    color: rgb(95, 95, 95);
+    /* border: 1px solid black; */
+    overflow: auto;
+}
+.amountDelete{
+    display: flex;
+    width: 35%;
+    justify-content: space-evenly;
+}
+.amountForInc{
+    color: rgb(0, 183, 255);
+    width: 100%;
+    overflow: hidden;
+}
+.amountForExp{
+    color: brown;
+    width: 100%;
+    overflow: hidden;
+}
+#deleteBtn{
+    /* color: rgb(0, 183, 255); */
+    line-height: 7vh;
+    font-size: 1.5vw;
+    font-weight: 500;
+}
+.deleteBtnForExp{
+    color: brown;
+}
+.deleteBtnForInc{
+    color: rgb(0, 183, 255);
+}
+.expenseHead{
+    text-align: center;
+    color: chocolate;
+}

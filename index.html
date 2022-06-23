@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budgetry</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@700&family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.iconmonstr.com/1.3.0/css/iconmonstr-iconic-font.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="backgrnd">
+        <div>
+            <div class="block">
+                <p class="heading">Available Budget in <span class="monthYear"></span></p>
+                <p id="amount">+0.00</p>
+            </div>
+            <div class="line1 line">
+                <p>INCOME</p>
+                <p class="amountIncome">+0.00</p>
+            </div>
+            <div class="line2 line">
+                <p>EXPENSES</p>
+                <p class="amountExpense">-0.00</p>
+                <p class="percentage">00%</p>
+            </div>
+        </div>
+    </div>
+    <div class="controlPanel">
+        <div>
+            <select id="operators">
+                <option value="inc" selected>+</option>
+                <option value="exp">-</option>
+            </select>
+        </div>
+        <div>
+            <input id="description" placeholder="Add Description" type="text">
+        </div>
+        <div>
+            <input id="value" placeholder="Value" type="text">
+        </div>
+        <div>
+            <i id="checkSign" class="im im-check-square-o"></i>
+        </div>
+    </div>
+    <div class="block1">
+        <div class="data">
+            <div class="incomeHead">
+                <p>
+                    INCOME
+                </p>
+            </div>
+            <div class="body bodyForIncome">
+                <!-- body -->
+                <!-- <div class="item">
+                    <div class="descriptionForBody">
+                        Project
+                    </div>
+                    <div class="amountDelete">
+                        <div class="amountForInc">
+                            150000000000000000000000
+                        </div>
+                        <div class="deleteBtnForInc">
+                            <i id="deleteBtn" class="im im-x-mark-circle-o"></i>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+        <div class="data">
+            <div class="expenseHead">
+                <p>
+                    EXPENSES
+                </p>
+            </div>
+            <div class="body bodyForExpense">
+                <!-- body -->
+                <!-- <div class="item">
+                    <div class="descriptionForBody">
+                        Project
+                    </div>
+                    <div class="amountDelete">
+                        <div class="amountForExp">
+                            150000000000000000000000
+                        </div>
+                        <div class="deleteBtnForExp">
+                            <i id="deleteBtn" class="im im-x-mark-circle-o"></i>
+                        </div>
+                    </div>
+                </div> -->
+                <!-- <div class="item">
+                    <div class="descriptionForBody">
+                        Project
+                    </div>
+                    <div class="amountDelete">
+                        <div class="amountForExp">
+                            150000000000000000000000
+                        </div>
+                        <div>
+                            21%
+                        </div>
+                        <div class="deleteBtnForExp">
+                            <i id="deleteBtn" class="im im-x-mark-circle-o"></i>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
